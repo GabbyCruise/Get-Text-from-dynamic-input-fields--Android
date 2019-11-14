@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Output">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="RESULTS" />
+
+
+    <!-- the static display and its contents-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Static Display"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <TextView
+        android:id="@+id/static_title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:hint="textDisplay "
+        />
+
+    <TextView
+        android:id="@+id/static_pname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:hint="textDisplay "
+        />
+
+    <TextView
+        android:id="@+id/static_pnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:hint="textDisplay "
+        />
+
+
+    <!--THE DYNAMIC DISPLAY CONTENTS-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dynamic Display"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/dynamic_ptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:hint="textDisplay "
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dynamic_pname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:hint="textDisplay " />
+
+    <TextView
+        android:id="@+id/dynamic_pnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:hint="textDisplay "/>
+</LinearLayout>
